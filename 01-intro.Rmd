@@ -1,0 +1,10 @@
+# Giris {#intro}
+
+Son ürünün veya ara mamulün üretilmesi esnasında ana malzemeden yeterli tolerans ve boyutlarda malzemenin en iyi şekilde kesilmesi ve bu malzemenin verimli ve etkin kullanılması endüstride süregelen önemli bir problem olmuştur. Ana malzemeden eniyi sekilde yararlanmak, dolayısıyla malzeme kayıp  oranlarını en küçüklemek bu alanda ortaya atılan yaklaşımların en önemli hedefi olmuştur.
+
+Kesme problemleri endustride temin edilen ana malzemeden daha küçük boyutlarda ve yeterli tolerans miktarlarıyla daha küçük malzemelere kesilmesi problemi olarak tanımlanabilir. Bu problem türü endüstride en fazla havacılik, dayanıkli tüketim malzemeleri üreten sanayi kolları, tekstil, mobilya gibi değişik sanayi kollarında ortaya çıkmaktadır.
+
+Bu calısmada dairesel kesme problemi yeni bir yaklaşımla ele alinmış ve bu tür problemlere yeni bir cözum yöntemi geliştirmek hedeflenmistir. Yeni yaklaşımda bir duzleme kesilecek dairesel malzemelerin atanmasında dairesel malzemelerin birbirlerine teğet konumları ele alınarak, daire dilimleri ve bu daire dilimlerini kapsayan çeşitli boy ve ebatlarla olusan  ucgenlerin incelenmesiyle atık oranlarını küçükleyecek şekilde bir eniyileme algoritması geliştirmeye çalışılmıştır. Bu yeni yaklaşımla beraber dairesel malzemelerin arasında meydana gelen uçgenlerin incelenmesi bu türden problemlere geometrik olarak daire olmasına rağmen farklı geometrik şekillerle ve tekniklerle incelenebileceği gösterilmeye çalışılmıştır.
+
+Ikinci bölümde dairesel kesme probleminin üçgensel alanların kullanılması yaklasımi aciklanmis ve ayrıntılı olarak ele alınmistir. Ayrıca gelistirilen yaklaşım programlanarak bilgisayar ortamina aktarılmış ve program  kodları paylasilmistir. Son olarak yeni yaklaşım küçük boyutlu dairesel atama problemine nasıl uygulandığı gösterilerek sonuçlar değerlendirilmeye çalışılmıştır.
+

@@ -1,0 +1,27 @@
+# ÜÇGENSEL ALANLAR ve DAİRESEL KESME PROBLEMLERİNiN ÇÖZÜMÜ İÇİN GELİSTİRiLEN YAKLASIM
+
+
+Bu calışmada, dairesel kesme probleminin çözümü için daireler arasında oluşan üçgensel alanların incelenmesine yönelik yeni bir yaklaşim incelenmiştir.
+
+Geliştirilmeye çalışılan algoritmanın temelleri öncelikle ana malzemenin tek olduğu ve fireyi en küçükleyecek şekilde kümelenmiş dairelerin verilen listede kesilmek istenen yarı çaplarin en uygun olanının secilmesi ve atanması işlemiyle gerçekleşmektedir. Eldeki malzeme listesinde en uygun yarıçaplı çember atanmis çemberlerle ikili olarak ele alınmakta ve atık kısım üçerli çember alanlarının toplamına bölünmesi yani toplam bir oran en küçüklemesi yaklaşımıyla uygun yarıçaplı çemberi seçmektedir.
+
+Başlangıç olarak bu yeni algoritmada üç daire uzerinde durulmus ve çesitli yarıçaplara sahip dairelerin nasıl bir araya geldikleri ve kümelenmelerde atik oranlari   incelenmistir. Dolayısıyla bu üçlü varyasyonların geometrik özellikleri çikartilmis ve bu üçgen yardımıyla diğer malzemelerin nasıl atanacağı konusunda fikir edinilmeye çalışılmıştır. 
+
+Öncelikle temel olarak üç dairenin nasil bir araya geldigi ve  bunlara iliskin geometrik formüller ve hesaplamalar gösterilecektir. **Şekil 1.1** de genel olarak üç dairenin nasil  bir araya geldigi ve incelenmesi gereken ortadaki üçgen gösterilmiştir.
+
+ Burada önemli olan bir nokta ise bir araya gelecek bu dairelerin birbirleri üzerine çakışmadan ve aralarında herhangi bir boşluk bulunmadan nasıl yerleştirilebileceği problemidir. Bu problem üçgenin iç açılarının bulunması ve bu iç açıların toplamının l80 dereceye ulasması halinde algoritma denenen yarıçapı hafızada tutmaktadır. Dolayısıyla denenen yarıcap ücgenin iç açıları toplamini sağlamıyorsa atanacak yarıçap elenmektedir. Böylece atama esnasında oluşacak çakışma ve arada boşluk bulunması ve bunların tekrar moduller yardımıyla düzenlenmesi işlemini çözüm yöntemiyle aşmakta ve bunun için zaman harcamamaktadır. **Şekil 1 . 2**' de dairelerin arasindaki üçgen ve bu üçgenin iç açilarinin nasil  nasıl hesaplandığı görülmektedir.
+ 
+```{r pressure, echo=FALSE, fig.align = 'center',fig.cap="Şekil 1.1 Acilar ve Geometrik Cizimler", out.width = '70%'}
+knitr::include_graphics("bookdown/figure/1.jpg")
+```
+
+
+Daireler arasında kalan üçgenlerin oluşturacağı iç açların yani  α,β, ⌀ açıları formül yardımıyla hesaplanacak ve bu açılarının arcsinleri alınarak derece cinsinden olusan açıların sayısal değerleri  elde edilmiş olacaktır. Burada üçgenin iç açılarının sinüslerinin bulunmasıyla **Alan = L/2sina (rt+r2)x(rl+r3)** formülüyle oluşan üçgen alanı tespit edilecektir. Ayrıca üçgenin kenar açıları daire dilim merkezleri olduğu için atık alanı hesaplanmasında üçgen alanından bu daire dilimlerinin çıkarılmasıyla ortaya çıkan atık alani belirlenmis olacaktır. Bilgisayar programında bu atık oranı ele alinan üçlü dairenin alanı toplamina bölunmesiyle oran tespit edilecek ve seçeneklerin denenmesi ve en düşük atık oranını sağlayan yarıçapın hafızaya alınıp düzleme atanması işlemiyle saglanacaktir.
+
+```{r pressure1, echo=FALSE, fig.align = 'center' , fig.cap="sekil 1.2 Ucgen  ve Ic aci hesaplari", out.width = '70%'}
+knitr::include_graphics("bookdown/figure/2.jpg")
+```
+
+Bilgisayar programında en iyi yarıçap bulunduktan sonfa bu çemberin ne tarafa ve nereye çizileceği problemini yine geometrik olarak iki noktası ve kenar uzunlukları belli olan ücgenin ücüncü kösesini daireler yardımıyla geometrik açıdan çözebiliyoruz. Bilgisayar programında bu noktayı tespit edebilmek için kırmızı renkli daireler çizilmekte ve bu dairelerin kesişim noktasının kullanıcı tarafindan belirlenmesiyle bu probleme geçici bir çözüm bulunmuştur.
+
+Örnek olarak r1:5OO, r2:900 ve r3:85O daireleri başlangıç olarak yerlestirildiginde listbox 'tan bir en iyi değer aranmaktadır. Bir yerleştirmenin  program yardımıyla nasıl çözüldüğü Şekil l.3 yardımıyla gösterilmiştir.

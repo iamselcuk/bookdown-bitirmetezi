@@ -1,0 +1,42 @@
+# Visual Basic 6 Ekran Goruntuleri
+
+```{r pressure3, echo=FALSE, fig.align = 'center',fig.cap=" Baslangic Yerlesimi", out.width = '50%'}
+
+knitr::include_graphics("bookdown/figure/3.jpg")
+knitr::opts_chunk$set(echo = TRUE, fig.align="center")
+```
+
+```{r pressure4, echo=FALSE, fig.align = 'center',fig.cap=" Koordinatlarin Isaretlenmesi", out.width = '50%', fig.cap.align = 'center'}
+knitr::include_graphics("bookdown/figure/4.jpg")
+
+```
+
+```{r pressure5, echo=FALSE, fig.align = 'center',fig.cap=" Birinci Cemberin Atanmasi", out.width = '50%', fig.cap.align = 'center'}
+knitr::include_graphics("bookdown/figure/5.jpg")
+
+```
+
+```{r pressure6, echo=FALSE, fig.align = 'center',fig.cap=" Uygun Bolgenin Isaretlenmesi", out.width = '50%', fig.cap.align = 'center'}
+knitr::include_graphics("bookdown/figure/6.jpg")
+
+```
+
+```{r pressure7, echo=FALSE, fig.align = 'center',fig.cap=" Ikinci Cemberin Atanmasi", out.width = '50%', fig.cap.align = 'center'}
+knitr::include_graphics("bookdown/figure/7.jpg")
+
+```
+
+```{r pressure8, echo=FALSE, fig.align = 'center',fig.cap=" Uygun Bolgenin Isaretlenmesi", out.width = '50%', fig.cap.align = 'center'}
+knitr::include_graphics("bookdown/figure/8.jpg")
+
+```
+
+```{r pressure9, echo=FALSE, fig.align = 'center',fig.cap=" Ucuncu Cemberin Atanmasi", out.width = '50%', fig.cap.align = 'center'}
+knitr::include_graphics("bookdown/figure/9.jpg")
+
+```
+
+```{r pressure10, echo=FALSE, fig.align = 'center',fig.cap="sekil 1.3h Istatistik Hesaplari", out.width = '50%', fig.cap.align = 'center'}
+knitr::include_graphics("bookdown/figure/10.jpg")
+
+```

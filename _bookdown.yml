@@ -1,0 +1,6 @@
+book_filename: "bookdown-ort"
+language:
+  ui:
+    chapter_name: "Chapter "
+output_dir: "docs"
+download: no

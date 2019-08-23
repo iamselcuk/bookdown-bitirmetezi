@@ -1,0 +1,81 @@
+# MALZEME KESME PROBLEMLERİ
+
+Sanayide son ürünlerin elde edilmesi için temin edilen ham malzemeler genellikle belirli standart büyüklüklerde ve boyutlarda temin edilebilmektedir, bu hammaddeleri üreten sanayiye girdi sağlayan kuruluşların hammaddeyi ekonomik anlamda üretebilmesi icin ana sebeptir. Dolayısıyla hammadde üreten kuruluşlar malzemenin ekonomik olabilmesi icin belli boyutlarda üretim yapmaktadırlar. Son ürünü üreten işletmelerin bu malzemeleri ana üreticilerden temin edip hammaddeyi kendi malzemelerine uygun olarak tekrar boyutlandırması ve üretim surecine bu şekilde alması gerekmektedir .Malzeme kesme problemlerinin ana konusu ve kaynağı bu noktada meydana gelmektedir. Temin edilen hammaddenin en verimli şekilde nasıl kullanılacağına ilişkin araştırmalar kaynaklarda genel malzeme kesme problemi olarak adlandirilmaktadir.
+
+Bu bölümde malzeme kesme problemleri ile ilgili genel tanim ve kavramlar  açıklanmaktadır. Malzeme kesme problemlerinin siniflandirilmasi, kısıtlar ve amaçlar, bu tür malzeme kesme problemlerinin modellenmesi ve kaynaklarda gelistirilen kesme problemlerinin genel tanimi uzerinde durulmaktadir.
+
+## Malzeme Kesme Problemlerine Genel Bakış
+Metal, kağıt, cam, kereste, deri, giyim gibi birçok endüstri alaninda yer tutan bir problem olan malzeme kesme problemi, ”Belirli boy ve ebatlarda temin edilen ana malzemeden, son ürün elde edilmesi icin daha kucuk boyutlarda parcalarin elde edilmesi problemi” olarak tanimlanabilir.
+
+Malzeme kesme problemleri ana malzemeye küçük kalıpların en küçük atık oranını sağlayacak  sekilde nasıl konumlandırılacağı, yerleştirileceğini belirlemesiyle aynı zamanda  bir yerlesim planlamasını da bünyesinde barındırmaktadır. Malzeme kesme problemlerinin bir alt kümesi istif problemlerinde ise büyük nesneler boş alan olarak tanimlanmakta ve küçük parçalarla bu boş alanların etkin bir şekilde doldurulmaktadir. Bir diğer malzeme kesme problemi ise, küçük parçalara kesilmesi gereken bküçükyük nesnelere dayanır.
+
+Malzeme kesme problemleri hakkında çok değişik araştırmalar yapılmış ve ayni zamanda çok farklı teknikler geliştirilmiştir. Bunlara bir örnek dik açılı olmayan kesme problemleridir, bu tür problemlerde sipariş parçalarının levha üzerine açılı olarak yerlestirilmesidir. Ayrıca dikdörtgen olmayan şekle sahip parçaların düzenlenmesi problemleriyle de çok sık karşılaşılmaktadır.
+
+Büyük sanayi kuruluslarından elde edilen ve son ürünün elde edilmesi için kullanılan ve kesilmesi gereken malzemelere, **ana malzeme**, ana malzemeden kesilerek son ürün haline getirilecek olan küçük parçalara ise **sipariş parçası** denilmektedir. Kesilmesi gereken parçaların  ana malzemeye veya hammaddeye nasıl yerleştirileceğini gösteren geometrik  modellere ise **kesme planı** denilmektedir. Sipariş alınan parçaların tümünün elde edilmesini sağlayacak sekilde birden fazla kesme planı hazırlanabilir. Kaynaklarda tek-boyutlu kesme planı, boylarının toplamı ana malzemenin boyunu aşmayan parçaların bir kombinasyonu olarak tanımlanmıştır.
+
+Siparis listesinde bulunmadigi halde kesme planinda kesilecek malzemelerin arasinda degerlendirilemeyen malzemelere ise **fire** denilmektedir. Malzeme kesme problemlerinde amac fonksiyonu toplam fire miktarinin en kucuklenmesine dayanmaktadir.
+
+### Köşeli şekiller
+
+Malzeme kesme problemlerinde köşeli şekilli parçaların kesimi ve kesme planlarının hazırlanması önemli bir yer tutmaktadır. Köşeli şekillerin kalıp, sablon vb, kesilmesi islemi özel donanım gerektirmeden, daha kolay bir şekilde yapılabilmektedir. Yerleşim planı tasarımında özellikle düzgün kenarlar, yerleşimi kolaylastırmakta, düşük fireli ve etkin planların kolayca düzenlenebilmesi sağlanmaktadır.
+
+Dik açılı malzeme kesme problemlerinde dikdörtgen parçaların dikdörtgen ana malzeme üzerine eksenleri kesmeyecek, yani paralel olacak şekilde yerleştirilmektedir. Dik açılı olmayan kesme bu tür problemlerde fire oranını azaltabilse bile kesme işleminde kullanılan tezgahlar bu kesimlere izin vermemektedir. Giyotinle kesimde her ardışık kesme işlemi levhanın bir ucundan diğerine uzayacak şekilde kesilmeli ve ayni islem diğer parçalarada uygulanarak parçalar elde edilmelidir.
+
+Iki-boyutlu malzeme kesme problemlerinde kademeli kesme problemlerinin modellenmesi Gomory ve Gilmore'un (1965) çalışmalarıyla başlamıştır. Bu tür kesme islemi ise temel olarak giyotinle kesmenin özel bir durumudur. Bu yöntemle kesme problemlerinde ise ana malzeme alt parçalara ayrılır ve ikinci aşamada bu alt parçalar da ters yönde kesilip daha alt düzeyde parçalar elde edilir. Mobilya sektöründe kullanılan makinelerde bu şekilde kesim yapılır.
+
+Parcaların kesilmesi esnasında bazı kesme problemlerinde parçalarin rotasyonuna izin verilemeyebilir, bu parçaların mukavemet gibi özelliklerinden kaynaklanabilir.
+
+### Kesme problemlerinde boyut
+
+Kesilecek malzemenin ana malzemenin boyutlarına bağlı olarak bir, bir-buçuk, iki veya üç boyutlu kesmeden söz edilebilmektedir. 
+Tek-boyutlu kesme: kağıt ruloların ve çubuk malzemelerin kesilmesinde diğer boyutların bir anlamı kalmamaktadır. Gomory ve Gilmore(1961,1963) kağıt rulolara tek-boyutlu malzeme kesme problemini ele almış ve en iyi sonucu veren ilk yontem geliştirilmişlerdir.
+
+**Bir bucuk-boyutlu kesme**: Bu tür levha uzunluğunun, sonsuz varsayıldığı iki-boyutlu problemlerin özel bir durumudur. Dikdörtgen parçalar çok uzun rulo malzeme uzerine yerleştirileceği zaman bu tür oluşmaktadır.
+
+**İki-boyutlu kesme**: Rulo saç, kumaş ve deri gibi levhalardan kesilecek parçaların bu ana malzemelere toplam fireyi en küçükleyecek şekilde dizilmesini ele almaktadır.
+
+**Üc-boyutlu kesme**: Aynı veya farklı biçimlerdeki n adet cismin sabit bir hacme toplam yerlesim hacmini en küçükleyecek şekilde yerleştirilmesini amaçlamaktadır.
+
+Üç-boyutlu kesme problemlerinde geometrik olarak düzgün olmayan şekillerle karşılasilsa bile, düzensiz parçaların kesimine yönelik bir yöntem geliştirilememiştir. Zaten böyle parcaların kesilebilmesi için öncelikle bu düzgün olmayan şekilleri kapsayan parcaların kesilmesi daha sonra elde edilen parçaların bir çeşit oyma işleminden geçirilmesi ve yeniden duzeıılenmesiyle mümkün olacağı düşünülmektedir.
+
+## Kesme Problemlerinin Siniflandirilmasi
+
+Malzeme problemlerinin gerçek hayat şartlarında çeşitli boyutları ortaya çıkmıstır. Benzer mantıksal yapılara sahip bu malzeme kesme ve istif problemleri çeşitli adlara sahiptir. Bunlar; malzeme kesme ve fire kaybı problemleri, kutu yerlestirme, serit yerlestirme, vektör yerleştirme, sırt çantası, araç yukleme gibi adlarla da anilmaktadirlar.
+
+Değisik turdeki iki-boyutlu kesme problemleri kaynaklarda oldukça önemli bir yer tutmaktadır. Bu tür problemler; ana malzemeden küçük parçaların kesilmesi olarak, veya küçük parcaların ana malzemeye yerleştirilmesi problemi olarak ele alınabileceği için aynı zamanda bir yerleşim problemidir.
+
+Malzeme ve boşluk arasındaki ikili ilişkiden yola çıkılarak, kesme ve yerleştirme problemleri arasında güçlü bağa dikkat çekilmiştir. Bu bakış açısıyla, yerleşim problemlerinin, küçük parçaların büyük nesneye yerleştirilmesi olarak düşünülebileceğini; tersi durumda ise malzeme kesme problemlerinin büyük nesnelerin daha küçük nesnelere bölünmesi olarak tanımlanması arasındaki yakın ilişkiye dikkat çekilmiştir.
+
+Malzeme kesme problemlerinin yapısı kesilecek veya yerleştirilecek parçaların geometrik özelliklerine göre değişmektedir. Malzeme kesme problemlerini bu yönüyle düzenli ve düzensiz şekilli malzeme problemi olarak ikiye ayırmak mümkündür. Malzeme kesme  problemlerinde geometrik olarak düzgün yapiya sahip malzemelerin kesilmesi işlemi düzenli şekilli malzeme kesme problemi olarak adlandırılırken, düzensiz şekilli kesme problemlerinde özellikle problemin modellenmesi oldukça güç olmaktadır.
+
+### Boyutlarına göre gruplama
+
+Malzeme kesme problemlerinin en önemli özelliği boyutudur ve bu özelliği ayırıcı bir özellik teşkil etmektedir. Bu problemlerde doğrultu sayısı kesme probleminin boyutunu vermektedir. Kesme problemlerinin ağırlık veya zaman gibi boyutlar içermesi durumunda problem daha fazla boyut kazanabilmektedir.
+
+### Talep türüne göre siniflandirma
+
+Her parçaya ait talep, o parca için kesilecek toplam miktarla sınırlandırılmakta ise kısıtlı tersi durum için ise problem kısıtsız malzeme kesme problemi olarak adlandırılmaktadır. Kısıtlı malzeme kesme problemlerinde bazı parçalara ait talep miktarları, o parcanin bir levhadan kesilebilecek toplam parça sayısından küçük olabilmektedir.
+
+## Kesme Problemlerinin Kisitlari
+
+Malzeme kesme problemleri talep türüne göre kısıtsız ya da kısıtlı olarak adlandırılabilmektedir. Ilk türdeki problemlerde sipariş parçaları için talep miktarı sınırlı olmayıp, mümkün olan en büyük sayıda parçanın kesilmesi amaçlamaktadır.
+Kısıtlı olan ikinci problem türünde ise sipariş parçalarına ait talep miktarları bellidir ve bu miktarlardan daha fazla kesim işlemine izin verilmemektedir.
+
+Malzeme kesme problemlerinde genellikle iki tür kısıttan söz edilmektedir. Giyotin kısıtı her kesme islemi sonunda iki dikdörtgen parça elde etme gereği, diğeri her parçanın yönünün sabit olmasi l uzunluğunda ve l genişliğindeki parçadan farklı
+olması gereğidir. 
+
+Giyotinle kesme cam, mobilya gibi bir çok endüstri dalında, kesme işleminin teknolojik yönüyle ihtiyac duyulmaktadır. Parçanın döndürülmesine izin verilmemesi ise örneğin parçanin desenli bir yapıda olmasından kaynaklanmaktadır. Gerçek hayat problemlerinde, düz malzemelerin kesilmesinde ve çoğu yerleştirme işleminde, daha iyi yerlesimler elde edilmesi icin parçaların döndürülmesine izin verilebilir.
+
+##  Kesme Problemlerinde Benimsenebilir Amaçlar
+
+Malzeme kesme problemlerinde her ana malzeme ve sipariş parçasına bir değer atanmaktadır. Temel olarak fire miktarının en küçüklenmesi amaçlandığı için bu değer parçanin alanına esit olarak belirlenmektedir. Ancak uzun süre depoda bekleyen bir ana malzemenin değerinin azaltılması veya acil öncelikli bir parçanın değerinin artırılması durumlarını modele yansıtmak amacıyla bu değerin bir katsayıyla çarpılması kullanıcılar tarafından talep edilebilmektedir.
+
+Malzeme kesme problemlerinde toplam firenin en küçüklenmesi olan amaç fonksiyon, kullanılan her parcadan  elde edilecek faydanın o parçanın alanıyla orantılı olarak belirlenmesi durumunda bir en buyükleme problemine dönüştürülebilir.
+
+
+[@xie2015]
+[@xie2016]
+[@xie2016]
+[@xie2017]
+[@xie2018]
+[@xie2019]

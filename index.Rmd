@@ -1,0 +1,34 @@
+--- 
+title: " DAIRESEL KESME PROBLEMLERININ COZUMUNDE UCGENSEL ALANLARA DAYALI BIR BASLANGIC YERLESIMI ALGORITMASI "
+
+author: "Selcuk DONMEZ"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+---
+
+# Ozet-Abstract
+
+Bu çalışmada, dairesel kesme probleminin çözümü amacıyla geometrik özellikleri de kullanarak  mevcut şekillerin daire olmasına rağmen, cemberlerin aralarında oluşan uçgenleri kullanarak  bu tur problemlere yeni bir yaklasım getirilmeye çalişılmıştır. Bu türden problemlerde, farklı yarıçaplardaki bir daireler kümesinin sabit boyutlardaki bir ana malzemeden kesilmesi gerekmektedir. Problemin karmaşıklığı nedeniyle, bu konu hakkinda az sayıda kaynak bulunmaktadır. Bu tür problemlerin çözümünün  amaci fire miktarını en küçüklemek ve ayni  zamanda ana malzemeden yararlanma oranini  en büyüklenmesidir. Kenarlari daire merkezi olan ucgenlerden yararlanılarak ve bu uçgenlerin iç açılarının yüz seksen olmasından yola cıkılarak yerlestirilecek daire eğer bu açı değerini oluşturacak bir uçgen olusturamiyorsa elenmektedir. Dolayisiyla atanacak daireler tam yerleşimi sağlamakta ve ek olarak cakısan  yerlesimlerin incelenmesine gerek kalmamaktadir. 
+
+```{r eval=FALSE}
+Anahtar kelimeler
+Dairesel kesme problemi
+Üçgensel Alanlar
+
+```
+
+
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```

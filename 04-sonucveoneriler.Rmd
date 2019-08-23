@@ -1,0 +1,7 @@
+# SONUÇ VE ÖNERİLER
+
+Dairesel kesme problemi icin geliştirilen bu algoritma ve yeni yaklaşım henüz belli sayıda dairelerin atanması islemini etkin olarak gerçekleştirmektedir. Dolayısıyla daha fazla cemberin etkin bir şekilde yerleşiminin gerçekleştirilmesi için atanacak çemberlerin yerleşiminde kullanıcının noktayı belirlemesini ve pivot çemberler yardımıyla atama yapmasi yerine bu soruna analitik bir yaklaşım ve yeni bir yöntem bulunması kaçınılmazdır.
+
+Geliştirilmeye çalışılan yeni yaklaşım dairesel malzeme kesme problemleri için çesitli tekniklerle uygulanarak daha etkin çözümler elde edilebileceği düşünülmektedir. Örnek olarak bu yeni atama yaklaşımının genetik algoritmalar teknikleriyle kullanılması, veya çemberlerin yan taraflarına eklenecek çemberler araştırılırken bir çeşit dal sınır tekniğiyle bu tür problemlerin daha fazla sayıda çember yerleştirilmesinde kullanılması düşünülebilir. Bu çalışmada bu tür problemlerin daha farklı bir şekilde nasıl ele alınabileceği arastirilmiş ve bu türden problemlerin geometrik özellikleri değerlendirilerek yeni bir yaklaşım geliştirilmeye çalışılmıştır.
+
+Visual Basic de yazılan bu program geliştirilerek cad yazılımlarıyla entegre hale getirilmesi halinde sanayiye önemli katkısı olabileceği düşünülmektedir. Bu programın geliştirilerek ve daha etkili çözümlemelerle daha iyi kodlanabileceği ve genetik algoritma gibi tekniklerle daha iyi sonuçlar elde edileceği düşünülmektedir.

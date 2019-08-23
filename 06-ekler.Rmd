@@ -1,0 +1,390 @@
+
+# Ekler
+
+ EK-1 Visual Basic Program Kodları  $\\$
+Option Explicit$\\$
+Dim matris(1To 10, 1 To 2) As Integer$\\$
+Diın curx, cury As Integer$\\$
+Dim dizi . soıı_basamak As Integer$\\$
+Diın toplam As Double$\\$
+Dim artık_0, artık_l , artık_2, artık_ilk As Dorıble$\\$
+Diın alanlar1, alanlar2, alanlar3 As Double$\\$
+Dim açılar(2) As String$\\$
+Dim gerçek_açılar(2) As String$\\$
+Dim gerçek açılar1(2) As String$\\$
+Diın dolu_alan As Currency$\\$
+Dim atıl As Currency$\\$
+Dim enk_atık oranı(2) As Currency$\\$
+Dim kenar_atık oranı(2) As Double$\\$
+Dim enkucuk As Currency$\\$
+Diırr alfa, beta, teta As Double$\\$
+Dim q,w, e As Integer$\\$
+Dim X, Y As Integer$\\$
+Dim kenar, kenar1, kenar2 As Currency$\\$
+Diın a, b, c As Double$\\$
+Dim koor(), j As Integer$\\$
+Dim artık_baslangıc As Double$\\$
+Private Sub Command 1 _Click()$\\$
+Dim sayac As Integer$\\$
+Dim t1(1) As String$\\$
+ For sayac:0 To 1$\\$
+ tl(sayac) : InPutBox("kirmizı çemberlerin kesişim noktasmı işaretleyiniz!,,)$\\$
+ Next sayac$\\$
+If son_basamak=kenar_atık oranı(l) Then$\\$
+If enk atık_oranı(O) < enk atık_orani(2) Then$\\$
+Circle (matris(l, l), matris(1,2)), a$\\$
+Circle (matris(2, l), matris(2, 2)), b$\\$
+Circle (matıis(3, 1), matris(3 ,2)), c$\\$
+Circle (matris(4, 1), matris(4, 2)), son_basamak$\\$
+Circle (matris(l, 1), matris(1,2)), a + kenar_atık_orani(0), QBColor(15)$\\$
+Circle (matris(2, 1), matris(2 ,2)),b + kenar_atık_orani(0),QBColor(15)$\\$
+Circle (t1 (0), t1(1)), kenar_atık_oranı(0)$\\$
+Else$\\$
+Circle (matris( 1 , 1), matris (1, 2)), a$\\$
+Circle (matris(2, 1), ınatris(2, 2)), b$\\$
+Circle (matris(3, 1), matris(3 ,2)), c$\\$
+Circle (matris(4, 1), matris(4, 2)), son_basamak$\\$
+EK-2 Visual Basic Program Kodları(devam)$\\$
+
+Circle (matris(2, l ), matris(2, 2)), b + kenar_atık_oranı(2), QBColor( 1 5)$\\$
+Circle (matris(3, 1), matris(3 ,2)), c + kenar_atık_oranı(2), QBColor(15)$\\$
+Circle (t1 (0), t1 ( 1)), kenar_atık_oranı(2)$\\$
+Eııd If$\\$
+End If$\\$
+
+If son_basamak = kenar_atık oranı(0) Then$\\$
+ if eıık_atık_oranı(l) < enk_atık_oranı(2) Then$\\$
+ Circle (matris( 1 , l ), ınatris (1, 2)), a$\\$
+Circle (ınatris(2, 1), matris(2, 2)), b$\\$
+Circle (matris(3, 1), matris(3 ,2)), c$\\$
+Circle (ınatris(4, 1), matris(4, 2)), son_basamak$\\$
+Circle (matris(1, 1), matris(1,2)), a + kenar_atık_oranı( 1), QBColor(1 5)$\\$
+Circle (matris(3, 1), matris(3 ,2)), c + kenar_atık_ oranı( 1), QBColor(1 5)$\\$
+Circle (t1(0), tl(1)), kenar_atık_oranı(l)$\\$
+Else$\\$
+Circle (matris(l, l), matris(1,2)), a$\\$
+Circle (matris(2, 1), matris(2 ,2)),b$\\$
+Circle (matris(3. 1), matris(3 ,2)), c$\\$
+Circle (matris(4, 1), matris(4, 2)), son_basamak $\\$
+Circle (matris(2, 1), matrİs(2, 2)), b+ kenar_atık_oranı(2), QBColor(l 5)$\\$
+ Circle (matris(3, 1), matris(3 ,2)), c + kenar_atık_oranı(2),QBColor(15)$\\$
+ Circle (t1(0), tl (l )), kenar_atık_oranı(1)$\\$
+End If$\\$
+End If$\\$
+If son_basamak = kenar_atık oranı(2) Then$\\$
+If enk_atık_oranı( 1 ) < enk_atık_oraru(0) Tlren$\\$
+Circle (matris(1, 1), matri(1,2), a$\\$
+Circle (ınatris(2, 1), matris(2, 2)), b$\\$
+Circle (matris(3, l), matris(3 ,2), c$\\$
+Circle (matris(4, 1), matris(4,2)), son_basamak$\\$
+CircIe (ınatris( l . 1), matris (1.2), a + kenar_atık_oranı(1 ), QBCoIor( l 5)$\\$
+Circle (matris(3, 1), matris(3 ,2)), c +kenar_atık_oranı(1), QBColor(15)$\\$
+ Circle (t1 (0), t1 (1 )), kenar_atık_oranı(1)$\\$
+Else$\\$
+Circle (matris(1, 1), matris(1 ,2)), a$\\$
+Circle (matris(2. 1 ), matris(2, 2)), b$\\$
+Circle (matris(3, 1), matris(3 ,2)), c$\\$
+Circle (matris(4, 1), matris(4, 2)), son_basamak$\\$
+Circle (matris( 1, 1 ), matris (1, 2)), a+ kenar_atık_oranı(0), QBColor( 1 5)$\\$
+Circle (matris(2, 1), matris(2 ,2)),b + kenar_atık_ oranı(0);, QBColor( 1 5)$\\$
+Circle (tl(0), t1( 1)), kenar_atık_oranı(0)$\\$
+EK-3 Visual Basic Program Kodları(devam)$\\$
+
+End If$\\$
+End If$\\$
+End Sub$\\$
+
+Private_Sub_Command2_Click()$\\$
+Dim t(l) As String$\\$
+For j :0 To 1$\\$
+t(i) : InputBox("kırmızı çemberlerin kesişiminin ilkolarak x sonra y koordinatını$\\$ giriniz")$\\$
+Next j$\\$
+If enk_atık oranı(0) < enk_atık_oranı( 1 ) And enk_atık_oranı (0) < $\\$ enk_atık_oranı(2) Then$\\$
+Circle (matris(1, 1), ınatris(1,2)), a  +son_basamak, QBColor(15)$\\$
+Circle (matris(2, 1), matris(2, 2)), Val(b+son_basamak) QBColor(15)$\\$
+End If$\\$
+If enk atık_oranı(l) < enk atık_oranı(0) And enk_atık_ oranı(1) < enk_atık_ oranı(2)$\\$ Then$\\$
+Circle (natıis(3, 1), ınatris(3,2)),( c  +son_basamak), QBColor(15) $\\$
+Circle (matris(1, 1), ınatris(1,2)),   son_basamak+ a), QBColor(15)$\\$
+End If$\\$
+If enk atık_oranı(2) < enk atık_oranı(1) And enk_atık_ oranı(2) < enk_atık_ oranı(0)$\\$ Then$\\$
+Circle (matris(2, 1), matris(2,2)), (b +son_basamak), QBColor(l5) $\\$
+Circle (matris(3, 1), matris(3 ,2)), (c + son_basamak), QBCotor(l5)$\\$
+ End If$\\$
+Circie (t(0), t(1)), son_basamak$\\$
+nıatris(4, l) : CıırrentX$\\$
+matris(4, 2): CurrentY$\\$
+End Sub $\\$
+
+Private Sub Commaııd4_Click()$\\$
+If son_basamak=kenar_atık_oranı(1) Then$\\$
+If enk_atık oraııı(O) < enk_atık_oranı(2) Then
+Circle (ırratris(2, 1), matris(2 ,2)), b+ kenar_atık_oranı(2), 500$\\$
+Circle (matris(3, 1), matris(3 ,2)), c + kenar_atık_oranı(2),500$\\$
+ Else$\\$
+Circle (matris(l, 1), matris (1, 2)), a +kenar_atık_oranı(0), 500$\\$
+Circle (matris(2, 1), matris(2 ,2)),b + kenar_atık_oranı(0), 500$\\$
+ End If$\\$
+End If$\\$
+EK-4 Visual Basic Program Kodları(devam)$\\$
+
+If soıı_basamak =kenar_atık_oranı(0) Then$\\$
+If enk_atık_oranı (l) < enk_atık_oranı(2) Then$\\$
+ Circle (matris(2, 1), matri(2 ,2)),b+ kenar_atık_oranı(2), 500$\\$
+ Circle (ııatıis(3, 1), matris(3 ,2)), c + kenar_atık_oranı(2),500$\\$
+Else$\\$
+Circle (matris( 1 , 1), matris (1, 2)), a+ kenar_atık_oranı ( 1), 500$\\$
+Circ-le (matris(3, l), matris(3 ,2)), c + kenar_atık._oranı(1), 500$\\$
+ End If$\\$
+End If$\\$
+If son_basamak= kenar_atık_oranı(2) Then$\\$
+If enk_atık_oranı(1) < enk_atık_oranı(0) Then$\\$
+Circle (matris(1, 1), matris(1,2)), a + kenar_atık_oranı (0), 500$\\$
+ Circle (matris(2, 1), matris(2 ,2)),b + kenar_atık_oranı(0), 500$\\$
+Else$\\$
+Circle (matris(l, 1), matris (1,2)), a + kenar_atık_oranı(1), 500$\\$
+ Circle(matris(3, 1), matris(3 ,2)), c + kenar_atık_oranı(1), 500$\\$
+ End if$\\$
+End If$\\$
+End Sub$\\$
+
+
+Private Sub Command5_Click()$\\$
+Dim t2(1) As String$\\$
+Dim sayac As Integer$\\$
+For sayac=0 To 1$\\$
+   t2(sayac) : InputBox("kirmizi çemberlerin kesişim ıroktasını işaretleyiniz!)$\\$ 
+Next sayac$\\$
+If son_basamak=kenar_atık oranı(1) Then$\\$
+If enk_atık_oranı(0) < enk_atık_oranı(2) Then$\\$
+Circle (matris(2, l ), matris(2, 2)), b + keııar_atık_oranı(2), QBColor(15)$\\$
+Circle (matris(3, 1), matris(3 ,2)), c+ keııar_atık_oranı(2), QBColor(15)$\\$
+Circle (t2 (0), t2 (1)), kenar_atık_oranı (2 )$\\$
+Else$\\$
+Circle (matris(l, 1), matris(1,2)), a +kenar_atık oranı(0), QBColor(l5)$\\$
+Circle (ııatris(2, l ), matris(2, 2)), b + kenar_atık oranı(0), QBColor(15)$\\$
+Circle (t2(0),t2(1)), kenar_atık_oranı(O) $\\$
+End If$\\$
+End If$\\$
+If son_basamak= kenar_atık_oranı(0) Then$\\$
+If enk_atık_oranı ( 1 ) < enk_atık_oranı (2) Then$\\$
+Circle (matris(2, 1), matris(2, 2)), b+ kenar_atık_oranı(2), QBColor(l5)$\\$
+Circle (matris(3, 1), matris(3 ,2)), c + kenar_atık_oranı(2), QBColor(l5) $\\$
+EK-5 Visual Basic Program Kodları(devam)$\\$
+
+Circle (t2(0), t2(1)), kenar_atık_oraıı(2)$\\$
+Else$\\$
+Circle (matris (1,1), matris (1, 2)), a + kenar_atık_oranı( 1 ), QBColor(1 5)$\\$
+Circle (matris(3, 1), matris(3 ,2)), c + kenar_atık _oranı(1), QBColor(l5)$\\$
+Circle (t2(0), t2(l)), kenar_atık oranı(1)$\\$
+End If$\\$
+End If$\\$
+I f son_basamak= kenar _atık_oranı (2) Then$\\$
+If enk_atık_oranı(l) < enk_atık_oranı (0) Then$\\$
+Circle (matris(l, 1), matris(1,2)),a + kenar_atrk _oranı(O), QBCotor( 1 5)$\\$
+Circle (matris(2, l), matris(2 ,2)),b + kenar_atık _oranı (O), QBColor(15)$\\$
+Circle (t2 (0), t2(1)), kenar_atık_oraııı(0 )$\\$
+Else$\\$
+Circle (matris(l, 1), matris(1,2)), a +  kenar_atık_oranı(1), QBColor(l5)$\\$
+Circle (matris(3, 1), matris(3 ,2)), c + kenar_atık_oranı(1), QBColor(l5)$\\$
+Circle (t2(0), t2(1)), kenar_atık oranı(l)$\\$
+End If$\\$
+End If$\\$
+End Sub$\\$
+
+Private Sub Command6_Click() $\\$
+Dim alan_oranı As Double$\\$
+ Label11.Caption = artık_0 + artık_l + artık_2 + artık_baslangıc$\\$
+alan_oranı =3.145 * (kenar_atık oranı(0) ^ 2 + kenar_atık oranı(1) ^ 2+$\\$
+kenar_atik_oranı(2) ^2+a ^2+b^2+^c^2)$\\$
+Label12.Caption : Val(artık_0 + artık_1+ artık_2 +artık_baslangıc)/alan_oranı$\\$
+End Sııb$\\$
+
+Private Srıb Forııı load()$\\$
+Forml.Show$\\$
+Forml.Height: 10000$\\$
+Forml.Width : 10000$\\$
+Diıır yarıcap$\\$
+Dim i As Integer$\\$
+yarıcap =Array(l 00, 700, 450,  200, 900, 850, 500, 600, 130, 140, 200, 95)$\\$
+For i=0 To 11$\\$
+Listl.Addltem(yarıcap(i))$\\$
+Next i$\\$
+Hesapla$\\$
+cember_ekle$\\$
+
+EK-6 Visual Basic Program Kodları(devam)$\\$
+
+End Sub$\\$
+Private Sub cember_ekle()$\\$
+Dinr içlerO, içlerl , içler2 İs Double$\\$
+Dim e As Integer$\\$
+Diın p, s As Double$\\$
+Dim k, l, u As Integer$\\$
+  p =(Val(a) + Val(b) + Val(c))$\\$
+  s=(2 *Sqr(p* a * b * c))$\\$
+ kenar=(Val(a) +c) * (Val(a) +b)$\\$
+kenar1=(Val(a) +c) * (Val(b) +c)$\\$
+kenar2=(Val(b) +c) * (Val(b) +a)$\\$
+açılar(0)=s/kenar$\\$
+açılar(1)=s/kenar1$\\$
+açılar(2)=s/kenar2$\\$
+içler0= (açılar(O) / Sqr((-açılar(0) ^2) + 1)) $\\$
+içler1= (açılar(1) / Sqr((-açılar(1) ^2) + 1)) $\\$
+içler2= (açılar(2) / Sqr((-açılar(2) ^2) + 1)) $\\$
+gerçek açılar(0) : Atıı(içler0) * l80 / 3.145$\\$
+gerçek açılar(1) : Atıı(içler1) * l80 / 3.145$\\$
+gerçek açılar(2) : Atıı(içler2) * l80 / 3.145$\\$
+artık baslangrc : (s -dolu_alan)$\\$
+alanlar1 =3.14 * a ^2* (gerçek_acılar(0) /360)$\\$
+alanlar2 =3.14 * b ^2* (gerçek_acılar(l) /360)$\\$
+alanlar3 =3.14 * c ^2* (gerçek_acılar(2) /360)$\\$
+dolu_alan=alanlar1+alanlar2+alanlar3$\\$
+artık_baslangıc =(s –dolu_alan)$\\$
+enk_atık_oranı(0)=1$\\$
+For k = 0 To (List1.ListCount - 1)$\\$
+e= Listl.List(k)$\\$
+p=(a+e+b)$\\$
+s=(2*Sqr(p*a*b*e))$\\$
+kenar: (Val(a) + e) * (Val(a) + b)$\\$
+kenar1: (Val(a) + e) * (Val(b) + e)$\\$
+kenar2: (Val(b) + e) * (Val(b) + a)$\\$
+açılar(0)=s/kenar$\\$
+açılar(1)=s/kenar1$\\$
+açılar(2)=s /kenar2$\\$
+içler0 =(açılar(0) / Sqr((-açılar(0)^ 2) + 1)$\\$
+içler1 =(açılar(1) / Sqr((-açılar(1)^ 2) + 1))$\\$
+içler2 =(açılar(2) / Sqr((-açılar(2)^ 2) + 1))$\\$
+gerçek_açılar(0)= Atn(içlero) * 1 80 / 3.145$\\$
+gerçek_açılar(1)= Atn(içlerl) *180/  3.145$\\$
+EK-7 Visual Basic Program Kodları(devam)$\\$
+
+gerçek_açılar(2)=Atn(içler2) * 180 / 3.145$\\$
+alaıılar1 =3.14 * a^ 2 * (gerçek_açılar(0) / 360)$\\$
+alaıılar2 =3.14 * b^ 2 * (gerçek_açılar(1) / 360)$\\$
+alaıılar1 =3.14 * e^ 2 * (gerçek_açılar(2) / 360)$\\$
+dolu_alan=alanlarl + alanlar2 + alanlar3$\\$
+artik_0: (s - dolu_alan)$\\$
+atıl=artık_0/s$\\$
+toplam : Val(gerçek_açılar(O) + Val(gerçek_açılar(l) + Val(gerçek_ açılar(2))$\\$
+If toplam >: 178 And toplam <: l82 Then$\\$
+Atıl= atıl$\\$
+Else$\\$
+atıl = 1.01$\\$
+End If$\\$
+If atıl < 0 Then atıl = 1$\\$
+If enk_atık _oranı(0) >= atıl Then$\\$
+enk_atık_oranı(0) =atıl$\\$
+kenar atık_oranı(0) : Val(List1.List(k))$\\$
+End If$\\$
+ Ncxt k$\\$
+   For k=0 To (Listl.ListCount - 1)$\\$
+    if Listl.List(k) = kenar_atık_oranı(0) Then$\\$
+     List1.List(k)=1000$\\$
+    End If$\\$
+ Next k$\\$
+ 'ilk karşılaştırma işleminin yapılması modülü$\\$
+enk_atık_oranı(1)=l$\\$
+For 1=0 To (Listl.ListCount - l)$\\$
+e = List1.List(l)$\\$
+p=(a+e+c)$\\$
+s=(2*Sqr(p*a*c*e))$\\$
+kenar = (Val(a) + e) * (Val(a) + c)$\\$
+kenar1 = (Val(a) + e) * (Val(c) + e)$\\$
+kenar2 = (Val(c) + e) * (Val(c) + a)$\\$
+açlar(0)=  s/kenar$\\$
+açılar(1)= s/kenar1$\\$
+açılar(2)= s/kenar2$\\$
+içler0=(açılar(0) / Sqr((-açılar(0) ^ 2) + l))$\\$
+içler1=(açılar(1) / Sqr((-açılar(1) ^ 2) + l))$\\$
+içler2=(açılar(2) / Sqr((-açılar(2) ^ 2) + l))$\\$
+gerçek_açılar1(0)= Atn(içler0) * 180 / 3.145$\\$
+gerçek_açılar1(1)= Atn(içler1) * 180 / 3.145$\\$
+gerçek_açılar1(2)= Atn(içler2) * 180 / 3.145$\\$
+EK-8 Visual Basic Program Kodları(devam)$\\$
+
+alanlar1 = 3.14 * a ^ 2 * (gerçek_açılar1(0)/360)$\\$
+alanlar2 = 3.14 * c ^ 2 * (gerçek_açılar1(1)/360)$\\$
+alanlar3 = 3.14 * e ^ 2 * (gerçek_açılar1(2)/360)$\\$
+dolu_alan=alanlar1 +alanlar2 + alanlar3$\\$
+artık_1=(s-dolu_alan)$\\$
+atıl=artık_1 /s$\\$
+toplaın =Val(gerçek_açılar1(0))+ Val(gerçek_açılar1(1))+ Val(gerçek_ açılar1(2))$\\$
+If toplam >= l78 And toplam <=182 Then$\\$
+atıl = atıl$\\$
+Else$\\$
+atıl= l$\\$
+End If$\\$
+If atıl< 0 Then atıl = 1$\\$
+If enk_atık_oranı(1) > atıl Then$\\$
+enk_atık_oranı ( 1) = atıl$\\$
+kenar_atık_oraııı( 1) : Val(List 1 .List(l))$\\$
+End If$\\$
+Next l$\\$
+ For k=0 To (List1.ListCount - 1)$\\$
+  If List1.List(k)= kenar_atık_oranı(1) Then$\\$
+  Listl.List(k)=1000$\\$
+  End If$\\$
+Next k$\\$
+'ikinci taraf karşılaştırmada bulunan en iyi çember yançapı bulunması$\\$
+Enk_atık_oranı(2)= l$\\$
+For u=0 To (Listl.ListCount - 1)$\\$
+e = List1.List(u)$\\$
+p=(b+e+c)$\\$
+s =(2 ^Sqr(p *c * b *e))$\\$
+kenar= (Val(b) +  e) * (Val(b) + c)$\\$
+kenar1= (Val(b) +  e) * (Vat(c) + e)$\\$
+kenar2= (Val(c) + e) * (Val(c) + b)$\\$
+açılar(1)=s/kenar$\\$
+açılar(l)=s/kenar1$\\$
+açılar(2)= s/kenar2$\\$
+içler0 = (açılar(0) / Sqr((-açılar(0) ^ 2) + 1))$\\$
+içler1 = (açılar(1) / Sqr((-açılar(1) ^ 2) + 1))$\\$
+içler2 = (açılar(2) / Sqr((-açılar(2) ^ 2) + 1))$\\$
+gerçek _açılar(0)= Atn(içler0) *180/  3.145$\\$
+gerçek _açılar(1)= Atn(içler1) *180/  3.145$\\$
+gerçek _açılar(2)= Atn(içler2) *180/  3.145$\\$
+alanlar1 = 3.14 *b ^ 2*( gerçek _açılar(0)/360)$\\$
+EK-9 Visual Basic Program Kodları(devam)$\\$
+
+alanlar2 = 3.14 *c ^ 2*( gerçek _açılar(1)/360)$\\$
+alanlar3 = 3.14 *e ^ 2*( gerçek _açılar(2)/360)$\\$
+dolu_alan = alanlar1 + alanlar2+ alanlar3$\\$
+artık_2= (s – dolu_alan)$\\$
+atıl =artık_2/s$\\$
+toplam= Val(gerçek_açılar(0)) + Val(gerçek_açılar(1)) + Val(gerçek_açılar(2))$\\$
+If toplam>=178 And toplam<=182 Then$\\$
+    atıl = atıl$\\$
+   Else$\\$
+   atıl =1$\\$
+End If$\\$
+If atıl < 0 Then atıl = 1$\\$
+If enk_atık_oranı(2) > atıl Then$\\$
+enk_atık_oranı(2) =atıl$\\$
+kenar_atık_or anı(2)=Val (List1.List(u))$\\$
+Eııd If$\\$
+Next u$\\$
+ For k = 0 To (Listl.ListCount - l)$\\$
+    If List1.List(k) =kenar_atık_oranı(2) Then$\\$
+          List1.List(k)=1000 $\\$
+       End If$\\$
+   Next k$\\$
+'üçtüncü karşılaştırma sonucunda elde edilen çember yarıçapı$\\$
+    If enk_atık_oranı(0) < enk_atık_oranı(1) And  enk_atık_oranı(0) <$\\$ enk_atık_oranı(2)$\\$
+Then$\\$
+son_basamak= kenar_ atık_oranı(0)$\\$
+Circle (X, Y), a +son_basamak, 500 $\\$
+Circle (matris(2,1),matris(2,2)), Val(b+ son_basamak ),500$\\$
+End If$\\$
+If enk_atık_oranı (1) < enk_atık_oranı(0) And enk_atık_oranı(1) <$\\$ enk_atık_oranı(2)$\\$
+Then$\\$
+son_basamak= kenar_atık_oranı(1)$\\$
+Circle (matris(3,1), matris(3,2)), (c+ son_basamak),500$\\$
+Circle (matris(1,1), matris(1,2)), son_basamak+a ,500$\\$
+End If$\\$
+If enk_atık_oranı(2) < enk_atık_oranı(1) And enk_atık_oranı(2) < enk_atık_oranı(0)$\\$
+Then$\\$
+son_basamak = kenar_atık_oranı(2)$\\$
+Circle (matris(2,1),matris(2,2)), Val(son_basamak +b ),500$\\$
+Circle (matris(3,1),matris(3,2)), Val(c+ son_basamak ),500$\\$
+End If$\\$
